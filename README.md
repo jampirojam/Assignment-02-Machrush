@@ -19,7 +19,7 @@ https://jsonplaceholder.typicode.com<br/>
 ----- /2<br/>
 ----- /{n max 5000}<br/>
 -- /todos<br/>
------ /1<br/><br/>
+----- /1<br/>
 ----- /2<br/>
 ----- /{n max 200}<br/>
 -- /users<br/>
