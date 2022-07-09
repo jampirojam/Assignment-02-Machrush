@@ -1,31 +1,31 @@
-# Assignment-02-Machrush
+# Assignment_02_Machrush
 This assignment is about test the data from RestAPI, with structure like this.
 
 https://jsonplaceholder.typicode.com<br/>
--- /posts<br/>
------ /1<br/>
------ /2<br/>
------ /{n max 100}<br/>
--- /comments<br/>
------ /1<br/>
------ /2<br/>
------ /{n max 500}<br/>
--- /albums<br/>
------ /1<br/>
------ /2<br/>
------ /{n max 100}<br/>
--- /photos<br/>
------ /1<br/>
------ /2<br/>
------ /{n max 5000}<br/>
--- /todos<br/>
------ /1<br/>
------ /2<br/>
------ /{n max 200}<br/>
--- /users<br/>
------ /1<br/>
------ /2<br/>
------ /{n max 10}<br/>
+__ /posts<br/>
+_____ /1<br/>
+_____ /2<br/>
+_____ /{n max 100}<br/>
+__ /comments<br/>
+_____ /1<br/>
+_____ /2<br/>
+_____ /{n max 500}<br/>
+__ /albums<br/>
+_____ /1<br/>
+_____ /2<br/>
+_____ /{n max 100}<br/>
+__ /photos<br/>
+_____ /1<br/>
+_____ /2<br/>
+_____ /{n max 5000}<br/>
+__ /todos<br/>
+_____ /1<br/>
+_____ /2<br/>
+_____ /{n max 200}<br/>
+__ /users<br/>
+_____ /1<br/>
+_____ /2<br/>
+_____ /{n max 10}<br/>
 
 ## RestAPI Route
 ### GET
