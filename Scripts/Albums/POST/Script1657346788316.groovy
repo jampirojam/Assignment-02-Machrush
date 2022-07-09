@@ -21,7 +21,7 @@ var = WS.sendRequest(findTestObject('Albums/POST'))
 
 WS.verifyResponseStatusCode(this.var, 201)
 
-if (var.getStatusCode() == 201) {    
+if (var.getStatusCode() == 201 && var.getResponseBodyContent() != null) {
     System.out.println(var.getStatusCode())
     System.out.println(var.getContentType())
     System.out.println(var.getResponseBodyContent())

@@ -21,7 +21,7 @@ var = WS.sendRequest(findTestObject('Photos/DELETE'))
 
 WS.verifyResponseStatusCode(this.var, 200)
 
-if (var.getStatusCode() == 200) {
+if (var.getStatusCode() == 200 && var.getResponseBodyContent() != null) {
 	System.out.println(var.getStatusCode())
 	System.out.println(var.getContentType())
 	System.out.println(var.getResponseBodyContent())

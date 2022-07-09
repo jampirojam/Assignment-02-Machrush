@@ -26,7 +26,7 @@ def totalData = dataAlbum.size()
 
 WS.verifyResponseStatusCode(this.var, 200)
 
-if (var.getStatusCode() == 200) {
+if (var.getStatusCode() == 200 && var.getResponseBodyContent() != null) {
 	println("Total Data: " + totalData)
 	// dataAlbum.each { println it }
 	System.out.println(var.getStatusCode())
