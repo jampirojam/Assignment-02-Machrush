@@ -9,7 +9,7 @@ https://jsonplaceholder.typicode.com<br/>
 -- /comments<br/>
 ----- /1<br/>
 ----- /2<br/>
------ /{n max 500}<br/><br/>
+----- /{n max 500}<br/>
 -- /albums<br/>
 ----- /1<br/>
 ----- /2<br/>
