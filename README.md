@@ -1,7 +1,7 @@
 # Assignment-02-Machrush
 This assignment is about test the data from RestAPI, with structure like this.
 
-https://jsonplaceholder.typicode.com<br/>
+jsonplaceholder.typicode.com<br/>
 ______ /posts<br/>
 _______________ /1<br/>
 _______________ /2<br/>
